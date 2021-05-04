@@ -148,6 +148,10 @@ nav ul li a{
   letter-spacing: 0.05em;
 }
 
+nav ul li a:hover{
+  color: rgba(255,255,255,.7);
+}
+
 nav ul li{
   margin-left: 10px;
 }
@@ -300,6 +304,7 @@ nav ul li{
   height: 10px;
   background: #DE8A59;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .cafe-dados p{
@@ -368,7 +373,7 @@ nav ul li{
 
 .cafe-importado-dados{
   justify-self: center;
-  padding: 50px 0px;
+  padding-top: 50px;
 }
 
 /*** CAPPUCCINOS ***/
@@ -429,4 +434,65 @@ nav ul li{
 
 .recomendacoes > div div img{
   margin: 0 auto;
+}
+
+.recomendacoes{
+  padding: 0px 75px 175px 75px;
+}
+
+/* CONHEÇA */
+
+.conheca-local{
+  padding: 0px 75px 175px 75px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+}
+
+.conheca-local > div {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  margin-top: 75px;
+}
+
+.local-dados{
+  padding: 25px;
+}
+
+.local-dados p:first-child{
+  margin-bottom: 50px;
+  line-height: 1.6rem;
+}
+
+.local-dados p:nth-child(2){
+  margin-bottom: 50px;
+  line-height: 1.6rem;
+}
+
+.local-dados p:nth-child(3){
+  line-height: 1.6rem;
+}
+
+.desconto{
+  color: #DE8A59;
+  text-decoration: underline;
+}
+
+footer{
+  background: #DE8A59;
+  padding: 25px 75px 25px 75px;
+}
+
+footer p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
+}
+
+.atribuicao{
+  padding: 15px 0px;
+}
+
+.atribuicao a{
+  color: black;
+  text-decoration: none;
 }
