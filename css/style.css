@@ -1,0 +1,432 @@
+/* RESET */
+body, h1, h2, h3, p, ul, li, a, p{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #1A130F;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+/*** HEADER ***/
+
+/* horario */
+.horario{
+  background: #DE8A59;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  color: #fff;
+}
+
+.horario p::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #32DD39;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* menu */
+.header{
+  background: #1A130F;
+  padding: 25px 0px;
+}
+
+.logo{
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  color: #fff;
+}
+
+.logo p:first-child{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.logo p:nth-child(2){
+  font-size: 4rem;
+}
+
+.logo p:nth-child(2)::before{
+  content: '';
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  background-image: url('../assets/ornamento-logo.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 15px;
+}
+
+.logo p:nth-child(2)::after{
+  content: '';
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  background-image: url('../assets/ornamento-logo.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 15px;
+}
+
+.logo p:last-child{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.logo p:last-child::before{
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: white;
+  position: relative;
+  top: -6px;
+  margin-right: 10px;
+}
+
+.logo p:last-child::after{
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: white;
+  position: relative;
+  top: -6px;
+  margin-left: 10px;
+}
+
+nav::before{
+  content: '';
+  display: block;
+  max-width: 590px;
+  height: 1px;
+  background: rgba(255,255,255,.3);
+  margin: 0 auto;
+}
+
+nav::after{
+  content: '';
+  display: block;
+  max-width: 590px;
+  height: 1px;
+  background: rgba(255,255,255,.3);
+  margin: 0 auto;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: 'DM Serif Display', serif;
+  font-size: 1rem;
+  padding: 5px 0px 10px 0px;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+nav ul li{
+  margin-left: 10px;
+}
+
+.nacionais::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('../assets/nacional.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.importados::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('../assets/importado.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+
+.cappuccinos::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('../assets/cappuccino.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.conheca::before{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('../assets/local.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+
+/*** CAPA ***/
+
+.capa{
+  background-image: url('../img/capa.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+.capa div{
+  padding: 75px 45px;
+}
+
+.capa h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 4.5rem;
+  font-weight: normal;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+}
+
+.capa p{
+  max-width: 470px;
+  margin-top: 125px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+}
+
+.facil{
+  box-shadow: inset 0px -10px 0px 0px #DE8A59;
+}
+
+.cafe{
+  box-shadow: inset 0px -10px 0px 0px #DE8A59;
+}
+
+/*** CAFÉS NACIONAIS ***/
+
+.cafes-nacionais{
+  padding: 100px 75px 175px 75px;
+  color: white;
+}
+
+.titulo{
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 4rem;
+  font-weight: normal;
+  color: white;
+}
+
+.titulo::after{
+  content: '';
+  display: block;
+  width: 200px;
+  height: 20px;
+  background-image: url('../assets/separador.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin: 15px auto 0px auto;
+}
+
+.cafes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin-top: 75px;
+}
+
+.cafes h2{
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.25rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  padding: 15px 0px;
+}
+
+.cafe-dados{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+}
+
+.cafe-dados ul li{
+  margin-bottom: 20px;
+  color: rgba(255,255,255,.8);
+}
+
+.cafe-dados ul li::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #DE8A59;
+  margin-right: 10px;
+}
+
+.cafe-dados p{
+  line-height: 1.6em;
+  max-width: 160px;
+  font-weight: 500;
+  color: rgba(255,255,255,.8);
+  box-shadow: -10px 0px 0px 0px #1A130F, -11px 0px 0px 0px rgba(81,79,79,.3);
+}
+
+/*** CAFÉS IMPORTADOS ***/
+
+.americano{
+  padding-bottom: 75px;
+}
+
+.cafes-importados{
+  padding: 0px 75px 175px 75px;
+}
+
+.bandeira-americana{
+  margin-top: 75px;
+}
+
+.cafe-importado-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 25px;
+  color: white;
+}
+
+.cafe-importado-item h2{
+  font-family: 'DM Serif Display', serif;
+  font-weight: normal;
+  font-size: 2.25rem;
+  padding: 0px 0px 15px 0px;
+}
+
+.cafe-importado-item ul li{
+  margin-bottom: 20px;
+  color: rgba(255,255,255,.8);
+}
+
+.cafe-importado-item ul li::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #DE8A59;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.cafe-importado-item h3{
+  font-size: 1.5rem;
+  padding: 15px 0px 10px 0px;
+}
+
+.cafe-importado-item p {
+  line-height: 1.6em;
+  max-width: 350px;
+  font-weight: 500;
+  color: rgba(255,255,255,.8);
+}
+
+.cafe-importado-dados{
+  justify-self: center;
+  padding: 50px 0px;
+}
+
+/*** CAPPUCCINOS ***/
+
+.cappuccinos-secao{
+  padding: 0px 75px 175px 75px;
+}
+
+.cappuccinos-dados{
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.cappuccinos-dados h2 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: normal;
+  font-size: 2.25rem;
+  padding: 0px 0px 15px 0px;
+}
+
+.cappuccinos-dados p{
+  line-height: 1.6em;
+  max-width: 350px;
+  font-weight: 500;
+  color: rgba(255,255,255,.8);
+}
+
+.cappuccinos-secao h1{
+  margin-bottom: 75px;
+}
+
+/*** RECOMENDACOES ***/
+
+.recomendacoes > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.recomendacoes > div div{
+  text-align: center;
+  color: rgba(255,255,255,.8);
+}
+
+.recomendacoes > div > div span{
+  font-family: 'DM Serif Display', serif;
+  color: white;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.recomendacoes > div > div p{
+  max-width: 250px;
+}
+
+.recomendacoes > div div img{
+  margin: 0 auto;
+}
